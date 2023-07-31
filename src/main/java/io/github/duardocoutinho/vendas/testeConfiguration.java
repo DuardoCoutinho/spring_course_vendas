@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 @Configuration
-@Profile("development")
+@Development
 public class testeConfiguration {
 
 
@@ -16,4 +16,6 @@ public class testeConfiguration {
             System.out.println("RODANDO A CONFIGURAÇÃO DE DESENVOLVIMENTO");
         };
     }
+
+
 }
